@@ -1,0 +1,25 @@
+{
+  "name": "@levihub/pathexits",
+  "version": "1.0.0",
+  "description": "A simple package to check if a path exists (based on 'fs' core package).",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/pathExists.cjs",
+      "import": "./dist/pathExists.mjs"
+    }
+  },
+  "author": "Leviatan1121 (https://levihub.dev)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leviatan1121/PathExists.git"
+  },
+  "keywords": [
+    "exists"
+  ],
+  "bugs": {
+    "url": "https://github.com/Leviatan1121/PathExists/issues"
+  },
+  "homepage": "https://github.com/Leviatan1121/PathExists#readme"
+}
